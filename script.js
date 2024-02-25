@@ -131,3 +131,73 @@ document.write(colors + "</br>");
 //   document.write("<option>" + manufact[m] + "</option>");
 // }
 // document.write("</select>");
+
+//CHAPTER 15
+// (ARRAY 1)
+// Q1
+// var empArr = [];
+// Q2
+// var empArr2 = ["a"];
+// Q3
+// var alphabet = ["h", "i", "j", "k"];
+
+// var ind = alphabet.indexOf("j");
+// alert(alphabet[ind]);
+// Q4
+// var alphabets = ["h", "i", "j", "k", "l", "m", "n", "o"];
+// document.write(alphabets.length);
+
+// Q5
+// var newArr = ["first"];
+// newArr.push("Second");
+// alert(newArr[newArr.length - 1]);
+
+//CHAPTER 16
+// (ARRAY 2)
+// // q1
+// var strArr = ["a"];
+// strArr.push("b");
+// alert(strArr[strArr.length - 1]);
+// q2
+// var alphabet = ["h", "i", "j", "k"];
+// alphabet.pop();
+// q3
+// alphabet.push(3);
+
+//CHAPTER 16
+// (ARRAY 3)
+// q1
+// var sizes = ["s", "m", "xl", "xxl", "xxxl"];
+// sizes.shift();
+// q2
+// sizes.splice(0, 0, 1, 2, 3);
+// q3
+// var numArr = [1];
+// numArr.unshift(2);
+// alert(numArr[numArr.length - 1]);
+// q4
+// var sizes = ["s", "m", "xl", "xxl", "xxxl"];
+// sizes.splice(2, 0, "L");
+// console.log(sizes);
+
+// q5
+// var sizes = ["s", "m", "xl", "xxl", "xxxl"];
+// var regSizes = sizes.slice(0, 3);
+// console.log(regSizes);
+
+// q6
+
+// var pets = ["dog", "cat", "ox", "duck", "frog"];
+
+// pets.splice(1, 3, "Cow", "Goat");
+// console.log(pets);
+
+// q7
+// var pets = ["dog", "cat", "ox", "duck", "frog"];
+// pets.splice(1, 2);
+// console.log(pets);
+
+// q8
+// var pets = ["dog", "cat", "ox", "duck", "frog", "flea"];
+// var petsNew = pets.slice(3, 5);
+// console.log(petsNew);
